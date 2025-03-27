@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddWorkshopForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditListFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditWorkshopForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="WorkShopFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
