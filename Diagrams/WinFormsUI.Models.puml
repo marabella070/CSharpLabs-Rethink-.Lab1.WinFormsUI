@@ -1,0 +1,260 @@
+@startuml
+
+!theme reddress-darkblue
+
+'CLASSES
+
+class WinFormsUI.EditListFormBase
+{
+    -- Fields --
+    -IContainer components;
+
+    -- Controls --
+        'Buttons
+            #Button AddBtn;
+            #Button EditBtn;
+            #Button DeleteBtn;
+            #Button SaveBtn;
+            #Button CancelBtn;
+
+        'Input Fields
+            #TextBox txtNewItem;
+            #TextBox txtEditItem;
+
+        'Display Elements
+            #ListBox listBoxItems;
+
+    Methods:
+    -- Event Handlers --
+        #void AddBtn_Click(Object sender, EventArgs e);
+        #void EditBtn_Click(Object sender, EventArgs e);
+        #void DeleteBtn_Click(Object sender, EventArgs e);
+        #void SaveBtn_Click(Object sender, EventArgs e);
+        #void CancelBtn_Click(Object sender, EventArgs e);
+
+    -- Form Lifecycle --
+        #void Dispose(Boolean disposing);
+        #void InitializeComponent();
+}
+
+
+class WinFormsUI.EditListForm__T__
+{
+    -- Fields --
+    -List<T> _originalList;
+    -BindingList<T> _bindingList;
+    -readonly Action<List<T>> _setList;
+
+    -- Constructor --
+    +EditListForm(List<T> initialList, Action<List<T>> setList)
+
+    -- Event Handlers --
+    #override void AddBtn_Click(object sender, EventArgs e)
+    #override void EditBtn_Click(object sender, EventArgs e)
+    #override void DeleteBtn_Click(object sender, EventArgs e)
+    #override void SaveBtn_Click(object sender, EventArgs e)
+    #override void CancelBtn_Click(object sender, EventArgs e)
+
+    -- Auxiliary tools --
+    -T ParseItem(string input)
+}
+
+class WinFormsUI.WorkShopFormBase {
+    .. Core Data ..
+    # Workshop _workshop
+
+    .. Form Components ..
+    - IContainer components
+
+    .. Input Fields ..
+    # TextBox txtProductionName
+    # TextBox txtManagerName
+    # NumericUpDown numWorkerCount
+    # NumericUpDown numId
+    # ComboBox scheduleComboBox
+    # TextBox scheduleDetails
+
+    .. Labels ..
+    # Label label1
+    # Label label2
+    # Label label3
+    # Label label4
+    # Label label5
+    # Label label6
+    # Label label7
+    # Label label8
+
+    .. Buttons ..
+    # Button CancelBtn
+    # Button SaveBtn
+    # Button EditProductsBtn
+    # Button EditBrigadesBtn
+
+    -- Initialization --
+    - void InitializeComponent(string formText)
+    - void Dispose(bool disposing)
+
+    -- Event Handlers --
+    # void SaveBtn_Click(object sender, EventArgs e)
+    # void CancelBtn_Click(object sender, EventArgs e)
+    # void scheduleComboBox_SelectedIndexChanged(object sender, EventArgs e)
+    # void EditProductsBtn_Click(object sender, EventArgs e)
+    # void EditBrigadesBtn_Click(object sender, EventArgs e)
+
+    -- Validation --
+    # bool ValidateAndSave()
+    # bool ValidateScheduleSelection()
+
+    -- Utilities --
+    - void SetNumericUpDownValues()
+    # void EditList(List<T> list, Action<T> setList)
+}
+
+class WinFormsUI.AddWorkshopForm {
+    .. State Tracking ..
+    - bool _productListEdited
+    - bool _brigadesEdited
+
+    .. Form Components ..
+    - IContainer components
+
+    -- Properties --
+    + Workshop NewWorkshop { get; unknown set; }
+
+    -- Initialization --
+    - void InitializeComponent()
+    - void Dispose(bool disposing)
+
+    -- Event Handlers --
+    # void SaveBtn_Click(object sender, EventArgs e)
+    # void EditProductsBtn_Click(object sender, EventArgs e)
+    # void EditBrigadesBtn_Click(object sender, EventArgs e)
+
+    -- Data Retrieval --
+    + Workshop get_NewWorkshop()
+}
+
+class WinFormsUI.EditWorkshopForm {
+    .. Form Components ..
+    - IContainer components
+
+    -- Properties --
+    + Workshop EditedWorkshop { get; unknown set; }
+
+    -- Initialization --
+    - void Dispose(bool disposing)
+
+    -- Event Handlers --
+    # void SaveBtn_Click(object sender, EventArgs e)
+
+    -- Data Retrieval --
+    + Workshop get_EditedWorkshop()
+}
+
+class WinFormsUI.AboutForm
+{
+    -static UInt32 majorVersion;
+    -static UInt32 minorVersion;
+    -String groupName;
+
+    -- Windows Forms elements --
+    -IContainer components;
+
+    -- General Information --
+    -Label lblAppName;
+    -Label lblVersion;
+    -Label lblAuthor;
+    -Label lblDescription;
+    -Label lblDiscipline;
+    -Label lblTeacher;
+
+    -- Features and Functionality --
+    -LinkLabel projectLinkLabel;
+    -Label lblFeaturesAndFunc;
+    -Label lblGeneralInfo;
+
+    -- Controls --
+    -Button btnOk;
+    -ListBox featuresListBox;
+
+    -- Windows Forms methods --
+    -Void InitializeComponent();
+    #Void Dispose(Boolean disposing);
+
+    -- Events --
+    -Void btnOk_Click(Object sender, EventArgs e);
+    -Void projectLinkLabel_LinkClicked(Object sender, LinkLabelLinkClickedEventArgs e);
+}
+
+class WinFormsUI.MainForm
+{
+    -BindingList`1 _workshops;
+
+    -- Windows Forms elements --
+    -IContainer components;
+    -DataGridView WorkshopGridView;
+
+    -- Panels --
+    -Panel panelBrigades;
+    -Panel panelShifts;
+    -Panel panelSchedule;
+    -Panel panelProducts;
+
+    -- ToolStrip elements --
+    -ToolStrip toolStrip1;
+    -ToolStripButton toolStripAddBtn;
+    -ToolStripButton toolStripEditButton;
+    -ToolStripButton toolStripDeleteBtn;
+
+    -- MenuStrip elements --
+    -MenuStrip menuStrip1;
+    -ToolStripMenuItem fileToolStripMenuItem;
+    -ToolStripMenuItem addToolStripMenuItem;
+    -ToolStripMenuItem editToolStripMenuItem;
+    -ToolStripMenuItem deleteToolStripMenuItem;
+    -ToolStripMenuItem programmToolStripMenuItem;
+    -ToolStripMenuItem aboutToolStripMenuItem;
+
+    -- Windows Forms methods --
+    -Void InitializeComponent();
+    -Void InitializeWorkshopGridView();
+    #Void Dispose(Boolean disposing);
+
+    -- ToolStrip methods --
+    -Void toolStripAddBtn_Click(Object sender, EventArgs e);
+    -Void toolStripEditButton_Click(Object sender, EventArgs e);
+    -Void toolStripDeleteBtn_Click(Object sender, EventArgs e);
+
+    -- MenuStrip methods --
+    -Void addToolStripMenuItem_Click(Object sender, EventArgs e);
+    -Void editToolStripMenuItem_Click(Object sender, EventArgs e);
+    -Void deleteToolStripMenuItem_Click(Object sender, EventArgs e);
+    -Void aboutToolStripMenuItem_Click(Object sender, EventArgs e);
+
+    -- Controls --
+    -Void AddWorkshop();
+    -Void EditWorkshop();
+    -Void DeleteWorkshop();
+
+    -- Events --
+    -Void WorkshopGridView_CellClick(Object sender, DataGridViewCellEventArgs e);
+
+    -- Auxiliary tools --
+    -Void DisplayWorkshopDetails(Workshop workshop);
+    -Void WorkshopGridView_RowPostPaint(Object sender, DataGridViewRowPostPaintEventArgs e);
+    -Int32 GetSelectedWorkshopIndex();
+}
+
+'CLASSES DEPENDECIES
+WinFormsUI.MainForm ..> WinFormsUI.AboutForm
+
+WinFormsUI.EditListFormBase <|-- WinFormsUI.EditListForm__T__
+WinFormsUI.WorkShopFormBase ..> WinFormsUI.EditListForm__T__
+
+WinFormsUI.WorkShopFormBase <|-- WinFormsUI.AddWorkshopForm
+WinFormsUI.WorkShopFormBase <|-- WinFormsUI.EditWorkshopForm
+
+WinFormsUI.MainForm ..> WinFormsUI.AddWorkshopForm
+WinFormsUI.MainForm ..> WinFormsUI.EditWorkshopForm
+
+@enduml

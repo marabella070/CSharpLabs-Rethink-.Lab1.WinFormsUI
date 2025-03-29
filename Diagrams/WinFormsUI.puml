@@ -1,0 +1,7 @@
+@startuml
+
+!include WinFormsUI.Models.puml
+
+'SHARED DEPENDENCIES
+
+@enduml
