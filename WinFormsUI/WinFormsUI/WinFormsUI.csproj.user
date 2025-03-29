@@ -19,6 +19,9 @@
     <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="TypeMetadataDisplayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="WorkShopFormBase.cs">
       <SubType>Form</SubType>
     </Compile>
