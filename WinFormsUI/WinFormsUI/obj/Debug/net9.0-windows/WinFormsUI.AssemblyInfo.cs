@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinFormsUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e87eeb323d52bcc82682ee3f22fbe86f1b7bfec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9f217c162d37ad071ef7054257f44a81b235e98")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinFormsUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinFormsUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

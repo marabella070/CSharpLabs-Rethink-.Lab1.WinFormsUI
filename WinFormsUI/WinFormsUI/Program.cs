@@ -12,8 +12,8 @@ namespace WinFormsUI
         {
             ApplicationConfiguration.Initialize();
 
-            var workshops = WorkshopRandomizer.GenerateMultipleWorkshops(workshopsNumber);
-            Application.Run(new MainForm(workshops));
+            var workshops = WorkshopRandomizer.GenerateMultiple(workshopsNumber);
+            Application.Run(new MainForm(workshops.ToList()));
 
             /*
             Type type = typeof(EditWorkshopForm);
