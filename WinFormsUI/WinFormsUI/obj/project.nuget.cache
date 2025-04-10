@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "h9eXBjLOVLQ=",
+  "dgSpecHash": "xCAfTXAyVUo=",
   "success": true,
   "projectFilePath": "C:\\Users\\marab\\OneDrive\\Рабочий стол\\Lab1\\CSharpLabs-Rethink-.Lab1.WinFormsUI\\WinFormsUI\\WinFormsUI\\WinFormsUI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\marab\\.nuget\\packages\\lab1.coreapi.core\\1.0.11\\lab1.coreapi.core.1.0.11.nupkg.sha512",
+    "C:\\Users\\marab\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.3\\microsoft.win32.systemevents.9.0.3.nupkg.sha512",
+    "C:\\Users\\marab\\.nuget\\packages\\system.drawing.common\\9.0.3\\system.drawing.common.9.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

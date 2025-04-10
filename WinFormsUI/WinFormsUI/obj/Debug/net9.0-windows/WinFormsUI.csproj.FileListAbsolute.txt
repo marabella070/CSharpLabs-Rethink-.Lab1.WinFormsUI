@@ -1,3 +1,13 @@
+C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\WinFormsUI.exe
+C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\WinFormsUI.deps.json
+C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\WinFormsUI.runtimeconfig.json
+C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\WinFormsUI.dll
+C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\WinFormsUI.pdb
+C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\CoreAPI.Core.dll
+C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\System.Drawing.Common.dll
+C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\System.Private.Windows.Core.dll
+C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\obj\Debug\net9.0-windows\WinFormsUI.csproj.AssemblyReference.cache
 C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\obj\Debug\net9.0-windows\WinFormsUI.AboutForm.resources
 C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\obj\Debug\net9.0-windows\WinFormsUI.AddWorkshopForm.resources
@@ -14,13 +24,6 @@ C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.Wi
 C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\obj\Debug\net9.0-windows\WinFormsUI.AssemblyInfo.cs
 C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\obj\Debug\net9.0-windows\WinFormsUI.csproj.CoreCompileInputs.cache
 C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\obj\Debug\net9.0-windows\WinFormsUI.sourcelink.json
-C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\WinFormsUI.exe
-C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\WinFormsUI.deps.json
-C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\WinFormsUI.runtimeconfig.json
-C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\WinFormsUI.dll
-C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\WinFormsUI.pdb
-C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\CoreAPI.Core.dll
-C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\bin\Debug\net9.0-windows\CoreAPI.Core.pdb
 C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\obj\Debug\net9.0-windows\WinFormsUI.csproj.Up2Date
 C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\obj\Debug\net9.0-windows\WinFormsUI.dll
 C:\Users\marab\OneDrive\Рабочий стол\Lab1\CSharpLabs-Rethink-.Lab1.WinFormsUI\WinFormsUI\WinFormsUI\obj\Debug\net9.0-windows\refint\WinFormsUI.dll

@@ -1,5 +1,5 @@
-using CoreAPI.Core.Helpers;
-using CoreAPI.Core.Models;
+using CoreAPI.Core.Randomizers;
+
 
 namespace WinFormsUI
 {
@@ -7,7 +7,7 @@ namespace WinFormsUI
     {
         const int workshopsNumber = 9;
 
-        [STAThread]
+        [STAThread] 
         static void Main()
         {
             ApplicationConfiguration.Initialize();
